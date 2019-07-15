@@ -34,6 +34,7 @@
     {
         background-image: url(../RecursosOletta/baner-3-1024x465.png);
         height: 35vh;
+        background-size: cover;
     }
     
     .fourth-section .contenedor h1
