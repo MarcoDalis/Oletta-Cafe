@@ -1,0 +1,90 @@
+footer
+{
+    background-color: #222222;
+}
+
+footer .contenedor
+{
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 45px;
+}
+
+footer .contenedor div
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .contenedor div p
+{
+    margin: 0px 0px 0px 15px;
+    color: white;
+    font-family: Helvetica, sans-serif;
+}
+
+
+footer .contenedor .logo-1
+{
+    width: 130px;
+    margin-bottom: 16px;
+}
+
+footer .contenedor .logo-2
+{
+    width: 90px;
+    margin-left: 15px;
+    transition: 2s;
+}
+
+/* AQUI EMPIEZAN LOS HOVER */
+
+footer .contenedor .logo-2:hover
+{
+    content:url("../RecursosOletta/Logo-Impregraphic-color-Footer2.png"); /*Se modifica la URL de la etiqueta IMG*/
+}
+
+/* AQUI TERMINAN LOS HOVER */
+
+/* AQUI EMPIEZA EL RESPONSIVE PARA 800PX*/
+
+@media (max-width:800px)
+{
+    footer .contenedor
+    {
+        padding: 0px 17px;
+    }
+
+    footer .contenedor div
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    footer .contenedor div p
+    {
+        margin: 0px 0px 0px 0px;
+        font-size: 10px;
+    }
+
+
+    footer .contenedor .logo-1
+    {
+        width: 60px;
+        margin-bottom: 0px;
+        margin-right: 10px;
+    }
+
+    footer .contenedor .logo-2
+    {
+        width: 45px;
+        margin-left: 15px;
+        transition: 2s;
+    }
+}
+
+/* AQUI TERMINA EL RESPONSIVE PARA 800PX*/

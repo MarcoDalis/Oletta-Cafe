@@ -1,0 +1,171 @@
+.third-section .contenedor
+{
+    background-image: url(../RecursosOletta/baner-2-1024x465.png);
+    background-size: 100% 100%;
+    height: 90vh;
+    object-fit: cover;
+    display: flex;
+}
+
+.third-section .contenedor img
+{
+    width: 130px;
+    margin-bottom: 25px
+}
+
+.third-section .contenedor hr
+{
+    width: 320px;
+    margin: 15px 0px 27px 0px;
+    border: 1px solid #E5BC53
+}
+
+.third-section .contenedor .div-solo
+{
+    height: 100%;
+    width: 60%;
+}
+
+.third-section .contenedor .div-contenido
+{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    width: 35%;
+    border-right: 5px solid #E5BC53;
+    border-left: 5px solid #E5BC53;
+    text-transform: uppercase;
+    font-family: "Centaur Regular";
+    font-size: 50px;
+    background-color: rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+}
+
+.third-section .contenedor .div-contenido p
+{
+    margin: 0px;
+    font-size: 90px;
+    text-align: center;
+    line-height: 62px;
+    word-spacing: -13px;
+}
+
+.span-1
+{
+    font-size: 83px; 
+    letter-spacing: 5px;
+}
+
+.span-2
+{
+    font-size: 61px
+}
+
+.span-3
+{
+    font-size: 220px; 
+    word-spacing: -85px; 
+    margin: 10px 0px 0px 0px;
+}
+
+/* AQUI EMPIEZA EL RESPONSIVE PARA PANTALLAS DE MENOS DE 1080 PX */
+
+
+@media (max-width: 1080px)
+{
+
+    .third-section .contenedor .div-contenido p
+    {
+        font-size: 60px;
+        line-height: 38px;
+    }
+    
+    .span-1
+    {
+        font-size: 53px; 
+        letter-spacing: 4px;
+    }
+
+    .span-2
+    {
+        font-size: 40px;
+    }
+    
+    .span-3
+    {
+        font-size: 220px; 
+        margin: 10px 0px 0px 0px;
+    }
+
+    .third-section .contenedor hr
+    {
+        width: 215px;
+        margin: 8px 0px 20px 0px;
+    }
+
+}
+
+
+/* AQUI TERMINA EL RESPONSIVE PARA PANTALLAS DE MENOS DE 1080 PX */
+
+/* AQUI EMPIEZA EL RESPONSIVE PARA PANTALLAS DE MENOS DE 800 PX */
+
+@media (max-width:800px)
+{
+    .third-section .contenedor
+{
+    background-size: cover;
+    background-position: center;
+}
+
+.third-section .contenedor img
+{
+    width: 100px;
+}
+
+.third-section .contenedor hr
+{
+    width: 190px;
+    margin: 7px 0px 18px 0px;
+}
+
+.third-section .contenedor .div-solo
+{
+    display: none;
+}
+
+.third-section .contenedor .div-contenido
+{
+    width: 80%;
+    margin: auto;
+}
+
+.third-section .contenedor .div-contenido p
+{
+    font-size: 55px;
+    line-height: 35px;
+}
+
+.span-1
+{
+    font-size: 47px; 
+    letter-spacing: 5px;
+}
+
+.span-2
+{
+    font-size: 36px
+}
+
+.span-3
+{
+    font-size: 145px !important; 
+    word-spacing: -107px !important; 
+    margin: 10px 0px 0px 0px;
+}
+}
+
+/* AQUI TERMINA EL RESPONSIVE PARA PANTALLAS DE MENOS DE 800 PX */

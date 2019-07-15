@@ -1,0 +1,123 @@
+/*AQUI EMPIEZA LOS ESTILOS DE MI HEADER PARA ESCRITORIO*/
+
+html
+{
+    scroll-behavior: 1s;
+}
+
+header
+{
+    box-shadow: 0px 0px 12px 0px black;
+    transition: 2s;
+}
+
+header .contendor
+{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    font-family: Helvetica, sans-serif;
+    height: 50px;
+    transition: 2s;
+}
+
+header .logo
+{
+    width: 150px;
+    transition: 2s;
+}
+
+header ul
+{
+    list-style: none;
+    display: flex;
+    padding: 0px;
+}
+
+header a
+{
+    text-decoration: none;
+    color: white;
+    padding: 0px 10px;
+}
+
+.menu-desplegable
+{
+    display: none;
+    transition: 2s;
+}
+
+/*AQUI TERMINA LOS ESTILOS DE MI HEADER PARA ESCRITORIO*/
+
+
+/*AQUI EMPIEZA LOS ESTILOS DE MI HEADER PARA HOVER*/
+
+header a:hover
+{
+    color: #F19700;
+}
+
+header a
+{
+    transition: 0.8s;
+}
+
+/*AQUI TERMINA LOS ESTILOS DE MI HEADER PARA HOVER*/
+
+
+
+/*AQUI EMPIZA LOS ESTILOS DE MI HEADER PARA TELEFONOS*/
+
+    @media (min-width: 801px)
+    {
+        header nav 
+        {
+            display: block !important;
+
+        }
+
+        header a
+        {
+            text-align: center;
+            display: flex;
+        }
+    }
+
+    @media (max-width: 800px)
+    {
+        .menu-desplegable
+        {
+            display: block;
+        }
+
+        header .menu-desplegable
+        {
+            width: 50px;
+        }
+
+        header nav 
+        {
+            position: absolute;
+            top: 60px;
+            left: 0;
+            height: 220px;
+            background-color: black;
+            width: 100%;
+            display: none;
+        }
+
+        header nav ul
+        {
+            flex-direction: column;
+        }
+
+        header li
+        {
+            padding: 5px 0px;
+        }
+    }
+
+/*AQUI TERMINA LOS ESTILOS DE MI HEADER PARA TELEFONOS*/
+

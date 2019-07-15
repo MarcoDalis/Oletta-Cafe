@@ -1,0 +1,72 @@
+.main-section
+{
+    background-image: url("../RecursosOletta/imagen-principal-1-1-1024x576.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 95vh;
+    text-align: center;
+}
+
+.main-section .contenedor 
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100%;
+}
+
+.main-section .contenedor div
+{
+    margin-bottom: 100px;
+}
+
+.main-section .contenedor img
+{
+    width: 300px;
+}
+
+.main-section .contenedor h1
+{
+    text-transform: uppercase;
+    color: white;
+    font-family: "Centaur Regular";
+    font-weight: 400;
+}
+
+.main-section .contenedor h2
+{
+    color: white;
+    font-family: 'Calligraffitti', cursive;
+    font-weight: 400;
+}
+
+/* AQUI EMPIEZA LOS ESTILOS PARA TELEFONOS */
+
+@media (max-width: 800px)
+{
+    .main-section .contenedor .logo
+    {
+        width: 170px;
+    }
+
+    .main-section .contenedor h1
+    {
+       font-size: 25px;
+       padding: 0px 10px;
+       font-family: "Centaur Regular";
+       font-weight: 400;
+    }
+
+    .main-section .contenedor h2
+    {
+        font-size: 25px;
+        padding: 0px 10px;
+        font-family: 'Calligraffitti', cursive;
+        font-weight: 400;
+    }
+}
+
+/* AQUI TERMINA LOS ESTILOS PARA TELEFONOS */
